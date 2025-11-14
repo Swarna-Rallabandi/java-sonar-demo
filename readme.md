@@ -83,7 +83,7 @@ public class Calculator {
     }
 
     public boolean unreachableExample(boolean flag) {
-        // remove truly unreachable code; keep method simple
+        // remove truly unreachable code; keep method simples
         return true;
     }
 }
@@ -158,4 +158,5 @@ mvn sonar:sonar \
 
 
 ---
+
 
