@@ -8,7 +8,7 @@ cd /opt/java-sonar-demo
 # Build, test, and generate JaCoCo XML
 mvn clean verify
 
-# Send analysis to SonarQube
+# Send analysis to SonarQube--
 mvn sonar:sonar \
   -Dsonar.host.url=http://SONARQUBE_PUBLIC_URL:9000 \
   -Dsonar.login=<YOUR_TOKEN>
@@ -158,5 +158,6 @@ mvn sonar:sonar \
 
 
 ---
+
 
 
