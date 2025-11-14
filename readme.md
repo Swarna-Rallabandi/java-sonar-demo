@@ -5,7 +5,7 @@
 ```bash
 cd /opt/java-sonar-demo
 
-# Build, test, and generate JaCoCo XML
+# Build, test, and generate JaCoCo XML--
 mvn clean verify
 
 # Send analysis to SonarQube--
@@ -158,6 +158,7 @@ mvn sonar:sonar \
 
 
 ---
+
 
 
 
